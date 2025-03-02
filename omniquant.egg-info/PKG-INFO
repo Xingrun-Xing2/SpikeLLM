@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: omniquant
+Version: 0.1.0
+Summary: An efficient, accurate, and omnibearing quantization algorithm for LLMs, encompassing both weight-only quantization (W4A16/W3A16/W2A16) and weight-activation quantization (W8A8, W6A6, W4A4).
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: datasets>=2.0.0
+Requires-Dist: einops
+Requires-Dist: jsonlines
+Requires-Dist: numexpr
+Requires-Dist: openai>=0.6.4
+Requires-Dist: omegaconf>=2.2
+Requires-Dist: peft>=0.2.0
+Requires-Dist: pybind11>=2.6.2
+Requires-Dist: pycountry
+Requires-Dist: pytablewriter
+Requires-Dist: rouge-score>=0.0.4
+Requires-Dist: sacrebleu==1.5.0
+Requires-Dist: scikit-learn>=0.24.1
+Requires-Dist: sqlitedict
+Requires-Dist: tqdm-multiprocess
+Requires-Dist: zstandard
+Requires-Dist: accelerate
+Requires-Dist: sentencepiece
+Requires-Dist: tokenizers>=0.12.1
+Requires-Dist: torch>=2.0.0
+Requires-Dist: torchvision
+Requires-Dist: transformers>=4.31.0
+Requires-Dist: texttable
+Requires-Dist: toml
+Requires-Dist: attributedict
+Requires-Dist: protobuf
+
+UNKNOWN
